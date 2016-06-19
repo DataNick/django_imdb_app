@@ -1,0 +1,30 @@
+.short, .long{
+  height: 30em;
+}
+
+input[type="text"], textarea {
+  background-color : #e8eaf6;
+}
+
+form {
+  display: block;
+  text-align: center;
+  padding-top: 25%;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+input {
+  text-align: center;
+  border: none;
+
+}
+
+.pitch {
+  padding-top: 10em;
+}
+
+img {
+
+}
