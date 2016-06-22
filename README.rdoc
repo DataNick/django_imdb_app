@@ -2,13 +2,13 @@
 
 ===== Visit at http://moviesearch.pythonanywhere.com
 
-I built it using OMDb API - an IMDb API that accesses film objects from IMDb.com.
+I built this app using OMDb API - an IMDb API that accesses film objects from IMDb.com.
 
-On this project, I figured I didn't want to create a collection of movie objects and simply have an interface that fethed individual movies objects on command. I built the movie model that had a class method to fetch a movie object.
+On this project, I figured I didn't want to create a collection of movie objects and simply have an interface that fetched individual movies objects on command. I built the movie model with a class method to fetch a movie object.
 
-Coming from a Rails background, the MVC structure from Rails v Django had a slight learning curve. Learning the routing and views of django was confusing at first but became second nature as I figured out how to set the search page as the home page.
+Learning the django framework coming from a Rails background had a slight learning curve. Learning the routing and views of django was confusing at first but became second nature as I figured out how to set the search page as the home page and connect the search and index methods in views to the corresponding template.
 
-Styling. I used Materialize CSS for styling the page. I only applied a minimalist style to the page but I found Materialize to be very intuitive and similar to Bootstrap and other CSS libraries.
+I used Materialize CSS for styling the page. I only applied a minimalist style to the page but I found Materialize to be very intuitive and similar to Bootstrap and other CSS libraries.
 
 === NEXT STEPS
 
