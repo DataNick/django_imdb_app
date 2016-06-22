@@ -1,25 +1,17 @@
 {% extends 'filmster/base.html' %}
 {% block content %}
-<div class="row">
-  <div class="short col s3 card-panel indigo lighten-3">
-    <div class="pitch">
-      <p>Search your favourite films from IMDb's library.
-      All films are taken from IMDb's API. Simply type in a movie title to receive information on your favourite film.</p>
-    </div>
+
+
+<div class = "row">
+  <div class = 'synopsis col s5'>
+    <h4>{{ movie.Title }}</h4>
+    <h5>{{ movie.Released }}</h5>
+    <p>{{ movie.Plot }}</p>
   </div>
-  <div class="long col s9 card-panel indigo lighten-5">
-    <form action="/search/" method="GET">
-      <input placeholder="MOVIE TITLE" type="text" id="qs" name="q" class="validate">
-      <input class="waves-effect waves-light cyan darken-1 btn" type="submit" value="Search">
-    </form>
+  <div class = 'poster col s7'>
+    <img class = "image" src="{{movie.Poster}}">
   </div>
 </div>
-
-
-<h3>{{ movie.Title }}</h3>
-<img class = "image" src="{{movie.Poster}}">
-<h4>{{ movie.Released }}</h4>
-<p>{{ movie.Plot }}</p>
 
 
 {% endblock%}

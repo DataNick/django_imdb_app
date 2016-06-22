@@ -1,5 +1,5 @@
 .short, .long{
-  height: 30em;
+  height: 20em;
 }
 
 input[type="text"], textarea {
@@ -9,8 +9,8 @@ input[type="text"], textarea {
 form {
   display: block;
   text-align: center;
-  padding-top: 25%;
-  width: 70%;
+  padding-top: 12%;
+  width: 50%;
   margin: 0 auto;
 
 }
@@ -22,9 +22,17 @@ input {
 }
 
 .pitch {
-  padding-top: 10em;
+  padding-top: 30%;
 }
 
 img {
 
+}
+
+.row .col.s7 {
+  width: 45%;
+  padding-left: 15%;
+}
+
+.image {
 }
