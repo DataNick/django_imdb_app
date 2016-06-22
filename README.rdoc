@@ -1,13 +1,11 @@
-=begin rdoc
-= H1 Django IMDb APP
-== H2 This is my first python-django application.
-#I built it using OMDb API - an IMDb API that accesses film objects from IMDb.com.
-#On this project, I figured I didn't want to create a collection of movie objects and simply have an interface that fethed individual movies objects on command. I built the movie model that had a class method to fetch a movie object.
-#Coming from a Rails background, the MVC structure from Rails v Django had a slight learning curve. Learning the routing and views of django was confusing at first but became second nature as I figured out how to set the search page as the home page.
+= Django IMDb APP
+== This is my first python-django application.
+# I built it using OMDb API - an IMDb API that accesses film objects from IMDb.com.
+# On this project, I figured I didn't want to create a collection of movie objects and simply have an interface that fethed individual movies objects on command. I built the movie model that had a class method to fetch a movie object.
+# Coming from a Rails background, the MVC structure from Rails v Django had a slight learning curve. Learning the routing and views of django was confusing at first but became second nature as I figured out how to set the search page as the home page.
 
-#Styling. I used Materialize CSS for styling the page. I only applied a minimalist style to the page but I found Materialize to be very intuitive and similar to Bootstrap and other CSS libraries.
+# Styling. I used Materialize CSS for styling the page. I only applied a minimalist style to the page but I found Materialize to be very intuitive and similar to Bootstrap and other CSS libraries.
 
-== H3 NEXT STEPS
+=== NEXT STEPS
 
-#Apparently the OMDb API doesn't allow for the fetching of images for a movie's poster attribute. Researching the problem online, one suggestion was to store the poster in a database and render it for a specific movie object. Since I decided to not create a collection of object but only call a search method on the class itself, this could prove challenging.
-=end
+# Apparently the OMDb API doesn't allow for the fetching of images for a movie's poster attribute. Researching the problem online, one suggestion was to store the poster in a database and render it for a specific movie object. Since I decided to not create a collection of object but only call a search method on the class itself, this could prove challenging.
